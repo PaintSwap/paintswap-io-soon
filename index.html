@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaintSwap is Soonish</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="globals.css">
+  <link rel="icon" href="./logoRound.ico" type="image/x-icon">
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PaintSwap | The Most Advanced Decentralized NFT Marketplace" />
+  <meta name="twitter:image" content="https://paintswap.finance/meta-image_v3.png" />
+  <meta name="twitter:domain" content="paintswap.finance" />
+  <meta name="twitter:site" content="@paint_swap" />
+  <meta name="twitter:creator" content="@paint_swap" />
+  <meta
+    name="twitter:description"
+    content="PaintSwap is the ultimate open decentralized NFT Marketplace to buy and sell NFTs utilising the latest NFT technology."
+  />
+
+  <meta property="og:title" content="PaintSwap | The Most Advanced Decentralized NFT Marketplace" />
+  <meta
+    property="og:description"
+    content="PaintSwap is the ultimate open decentralized NFT Marketplace to buy and sell NFTs utilising the latest NFT technology."
+  />
+  <meta property="og:image" content="https://paintswap.io/meta-image_v4.png" />
+  <meta property="og:url" content="https://paintswap.io" />
+  <style>
+    body {
+      font-family: 'Manrope', sans-serif;
+      margin: 0;
+      padding: 32px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .buttons-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      width: 100%;
+    }
+    .custom-button {
+      background: linear-gradient(27deg, #3125e3ba 0%, #dd23beb8 100%);
+      border: none;
+      color: rgb(250, 250, 250);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 0;
+      cursor: pointer;
+      border-radius: 12px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgb(110 85 247 / 27%);
+      position: relative;
+      overflow: hidden;
+      width: 95%;
+    }
+    .custom-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0px 5px 20px rgb(138 85 247 / 35%);
+    }
+    .custom-button:active {
+      transform: translateY(1px);
+    }
+    .custom-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: 0.5s;
+    }
+    .custom-button:hover::before {
+      left: 100%;
+    }
+    .title {
+      font-size: 8.4vw;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      white-space: nowrap;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    }
+    .logo {
+      width: 10vw;
+      height: 10vw;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    }
+    @media (min-width: 768px) {
+      .buttons-container {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 128px;
+      }
+      .title {
+        font-size: 4rem;
+        gap: 20px;
+      }
+      .custom-button {
+        font-size: 18px;
+        width: fit-content;
+        margin: 0;
+      }
+      .logo {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="title animate__animated animate__fadeIn">
+    <img src="./logoRound.png" alt="" class="logo">
+    Coming Soon!
+  </div>
+</body>
+</html>
